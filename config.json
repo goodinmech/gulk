@@ -1,0 +1,27 @@
+{
+  "dir": {
+    "template": "./workflow/dev",
+    "test": "./workflow/test",
+    "production": "./workflow/prod"
+  },
+
+  "options": {
+    "prodFileExtension": "php"
+  },
+
+  "send": {
+    "smtpTransport": {
+        "service": "gmail",
+        "auth": {
+            "user": "example@gmail.com",
+            "pass": "USE 'setEmailPass' command!"
+        }
+    },
+
+    "sendFrom": "example@gmail.com",
+
+    "sendTo": [
+      "example@gmail.com"
+    ]
+  }
+}

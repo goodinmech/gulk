@@ -1,0 +1,24 @@
+{
+  "name": "gulk",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "cli": "^0.11.0",
+    "commander": "^2.9.0",
+    "glob": "^5.0.15",
+    "html": "0.0.10",
+    "inky": "zurb/inky",
+    "js-beautify": "^1.6.2",
+    "juice": "^1.5.1",
+    "nodemailer": "^1.8.0",
+    "promptly": "^0.2.1",
+    "readline-sync": "^1.2.21",
+    "watch": "^0.17.1"
+  },
+  "scripts": {
+    "start": "node src/bin/gulk"
+  },
+  "author": "",
+  "license": ""
+}
